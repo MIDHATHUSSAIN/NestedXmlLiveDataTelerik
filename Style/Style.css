@@ -1,0 +1,95 @@
+﻿*{
+    overflow-x :hidden !important;
+}
+.text {
+    color: gray !important;
+    font-size: 1.5rem !important;
+}
+.values{
+
+    font-size:3rem ;
+}
+.middle {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    flex-wrap: wrap
+}
+.midhat {
+    margin-top: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.graygap {
+    height: 32rem;
+    background-color: rgb(242, 242, 242);
+    width: 1rem;
+    margin-left: 60rem
+}
+.headerDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 1rem;
+    min-height: 5rem;
+}
+.turbine {
+    width: 4rem;
+    height: 4rem;
+    background-color: lawngreen;
+    border-radius: 50%;
+}
+.turbineStatus {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.status {
+
+    display: flex;
+    justify-content: center;
+    gap:0.5rem;
+    align-items: center
+}
+@media (max-width: 1260px) {
+    .headerDiv {
+        justify-content: center;
+        gap: 3rem;
+    }
+    .values {
+        font-size: 2rem;
+    }
+    .middle {
+        padding-top: 0 !important;
+    }
+    .graygap{
+
+        margin-left: 20rem;
+    }
+   
+    
+}
+@media (max-width: 1800px) and (min-width:1500px) {
+    .graygap {
+        margin-left: 10rem;
+    }
+}
+@media (max-width: 1501px) {
+    .graygap {
+        display:none;
+    }
+    .midhat{
+
+       
+    }
+
+}
